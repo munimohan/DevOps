@@ -1,0 +1,91 @@
+					GIT
+======================================================================================
+Git is  distributed repository to keep source code.
+Algm : Sha1 Algorithm.
+GIT HUB lanched in 2008
+
+How to install Git?
+
+	windows: -exe
+	Ubuntu - sudo apt -get install git
+RHEL - sudo yum install git
+
+how to verify?
+
+> mkdir cog
+> cd cog
+> start .
+> git init
+> git -v
+
+Simple:
+1. Create a File - non git action
+	- $ touch file1,txt
+
+2. Add a file			
+	- $ git add file1.txt
+
+3. Srt user name and e mail
+
+	-$ git config user.name "Rajesh K"
+	-$ git config email "rajeshkumar@gmail.com"
+	-$ git commit  -m"adding my  first file"
+	-$ git log
+	-$ git status
+==
+git workflow
+=============
+
+
+     	working directory  --> git add
+	
+	Staging area  --> git commit
+	
+	Repository
+
+ccreate directory:
+$ mkdir src
+
+
+Undoing the change
+===================
+1. you wnat to delete a file from working dir.
+2. you want to move a file from staGING AREA to working directory
+3. 
+
+$ git 
+$ git reset
+$ git revert
+$ git diff
+
+
+Head - tip of the current working directory.
+
+configuring GIT
+=========================
+
+-System 
+	-/etc/gitconfig
+-User 
+	-~/.gitconfig
+`	-$HOME\.gitconfig
+-Project
+	-my_project/.git/config
+
+Merging
+=======================
+Fast forward merging
+$ git merge fea2 
+
+
+
+
+
+
+
+
+
+
+  	
+
+
